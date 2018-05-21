@@ -1,3 +1,18 @@
+# Fork
+
+This is a fork of https://github.com/evgenyrodionov/flexboxgrid2 for SparkGrowth.
+
+#### Make changes
+
+```
+npx grunt
+git commit
+git push
+```
+
+
+
+
 # flexboxgrid2
 [![npm version](https://badge.fury.io/js/flexboxgrid2.svg)](https://badge.fury.io/js/flexboxgrid2)
 
