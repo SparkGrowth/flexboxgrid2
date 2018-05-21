@@ -14,9 +14,9 @@ Forked from [kristoferjoseph/flexboxgrid](https://github.com/kristoferjoseph/fle
 - `md`: 768..991px
 - `lg`: 992..1199px
 - `xl`: 1200px+
-- `.container` padding: 8px
-- `.container` width: $breakpoint - 16px
-- `.col-*` padding: 8px
+- `.container` padding: 16px
+- `.container` width: $breakpoint - 32px
+- `.col-*` padding: 16px
 
 ## Install
 ### yarn
@@ -36,6 +36,6 @@ import 'flexboxgrid2/flexboxgrid2.css'
 ### unpkg.com CDN
 ```html
 <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@[version]/flexboxgrid2.css">
-``` 
+```
 
 Replace `[version]` with current version, f.e. `7.1.0`
