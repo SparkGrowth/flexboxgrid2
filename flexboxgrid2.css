@@ -7,34 +7,34 @@
 }
 
 .container-fluid {
-  padding-right: 32px;
-  padding-left: 32px;
+  padding-right: 4%;
+  padding-left: 4%;
 }
 
 @media only screen and (min-width: 576px) {
   .container {
-    width: 544px;
+    width: calc(576px - 4%);
     max-width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .container {
-    width: 736px;
+    width: calc(768px - 4%);
     max-width: 100%;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .container {
-    width: 960px;
+    width: calc(992px - 4%);
     max-width: 100%;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .container {
-    width: 1168px;
+    width: calc(1200px - 4%);
     max-width: 100%;
   }
 }
@@ -49,8 +49,8 @@
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -16px;
-  margin-left: -16px;
+  margin-right: -2%;
+  margin-left: -2%;
 }
 
 .row.reverse {
@@ -198,8 +198,8 @@
   flex: 0 0 auto;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
-  padding-right: 16px;
-  padding-left: 16px;
+  padding-right: 2%;
+  padding-left: 2%;
   max-width: 100%;
 }
 
@@ -607,8 +607,8 @@
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 2%;
+    padding-left: 2%;
   }
 
   .col-md {
@@ -828,8 +828,8 @@
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 2%;
+    padding-left: 2%;
   }
 
   .col-lg {
@@ -1049,8 +1049,8 @@
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 2%;
+    padding-left: 2%;
   }
 
   .col-xl {
